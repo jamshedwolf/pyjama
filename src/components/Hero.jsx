@@ -38,8 +38,8 @@ const Home = () => {
   };
 
   return (
-    <>
-      <div className=" pb-20 relative lg:px-10 lg:py-10">
+    <> <div className="bg  pt-[120px]">
+      <div className="  pb-20  relative lg:px-10 lg:py-10">
         <div className="p-4  flex-col lg:flex-row flex pb-20 justify-center gap-6 text-white font-inter font-weight">
           <div data-aos="fade-down" className="flex-[.7] flex flex-col px-4 lg:px-20 py-10 gap-5 bg-opacity-15 bg-[#BA45E3] rounded-2xl items-center justify-center ">
             <div className="text-4xl lg:text-5xl font-bold ">PYJAMACOIN GAME </div>
@@ -118,6 +118,7 @@ const Home = () => {
           <img src={jup} alt="" className="w-[150px]" />
           <img src={ph} alt="" className="w-[150px]" />
         </div>
+      </div>
       </div>
     </>
   );

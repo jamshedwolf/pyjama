@@ -1,4 +1,3 @@
-
 import './App.css'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
@@ -9,28 +8,29 @@ import Team from './components/Team'
 import Footer from './components/Footer'
 import Howtoplay from './components/Howtoplay'
 import Playcards from './components/PlayCards'
+import Layout from './components/Layout'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Privacy from './components/Privacy'
+import Home from './components/Home'
 
 function App() {
 
   return (
-    <>
-    <div className="gradient inter overflow-x-hidden  text-white">
+    <><div className=" inter gradient  text-white">
+     <BrowserRouter>
+     <Layout>
+     <Routes> 
+      
+     <Route path="/" element={<Home/>} />
+          
 
-   <div className="bg    "   >
-  
-<Nav/>
-<Hero/>
-</div>
-<How/>
-<Howtoplay/>
-<Playcards/>
-<Tokenomics/>
-<Roadmap/>
-<Team/>
-<Footer/>
-
-
-</div>
+          <Route path="/privacy" element={<Privacy/>} />
+       
+     
+      </Routes> 
+      </Layout>
+      </BrowserRouter>
+      </div>
     </>
   )
 }

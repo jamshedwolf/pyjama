@@ -27,8 +27,10 @@ function Nav() {
     hover: { width: '100%', transition: { duration: 0.3 } }
   };
 
-  return (
-    <div className=' lg:p-10 p-5  max-w-[1400px] mx-auto ' >
+  return ( 
+  
+  <div className="flex  index  absolute top-0  w-[200px]  lg:w-full  items-center justify-center">
+    <div className=' fixed top-0 left-[0px] lg:left-[100px] w-[435px]  p-5   bg-transparent lg:w-full max-w-[1400px] mx-auto ' >
       <div className="  rounded-[20px] bg-[#8523a846]">
         <div className="flex items-center justify-between  gap-2  border-[#585471] rounded-[20px] p-4 text-xl text-white">
           <div className="flex gap-2 items-center">
@@ -38,7 +40,7 @@ function Nav() {
 
           {/* Desktop Menu */}
           <div className="lg:flex hidden gap-2 items-center">
-            {['Home', 'About Us', 'Services', 'Contact'].map((item, index) => (
+            {['Game ', 'Presale', 'Whitepaper', 'About Us'].map((item, index) => (
               <motion.div 
                 className="relative cursor-pointer"
                 key={index}
@@ -159,6 +161,9 @@ function Nav() {
         )}
       </div>
     </div>
+    </div>
+  
+    
   );
 }
 

@@ -82,6 +82,18 @@ background-repeat: no-repeat;
 background-size: cover;
 
 }
+.pbg{
+background-image: url(./assets/pbg.svg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.index{
+z-index: 1000;
+
+}
 
 .item {
   animation: scroll 20s linear infinite;
