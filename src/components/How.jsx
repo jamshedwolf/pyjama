@@ -45,7 +45,7 @@ function How() {
           {/* First Four Cards */}
           <div className="rounded-lg bg-[#b945e362] flex items-center flex-col gap-2 p-8 justify-center" data-aos="fade-left">
             <p className="w-full text-xl font-bold">Step 1</p>
-            <img src={e4} alt="" className="w-[100px]" />
+            <img  loading="lazy"  src={e4} alt="" className="w-[100px]" />
             <p className="text-xl font-semibold text-center">Choose Your Pet</p>
             <p className="text-center">
               Select your pet and choose between a male or female Shiba Inu.
@@ -55,7 +55,7 @@ function How() {
 
           <div className="rounded-lg bg-[#b945e362] flex items-center flex-col gap-2 p-8 justify-center" data-aos="fade-right">
             <p className="w-full text-xl font-bold">Step 2</p>
-            <img src={e5} alt="" className="w-[100px]" />
+            <img loading="lazy" src={e5} alt="" className="w-[100px]" />
             <p className="text-xl font-semibold text-center">Name Your Pet</p>
             <p className="text-center">
               Give your pet a unique name to make it truly yours. Your pet’s
@@ -65,7 +65,7 @@ function How() {
 
           <div className="rounded-lg bg-[#b945e362] flex items-center flex-col gap-2 p-8 justify-center" data-aos="fade-left">
             <p className="w-full text-xl font-bold">Step 3</p>
-            <img src={e2} alt="" className="w-[100px]" />
+            <img loading="lazy" src={e2} alt="" className="w-[100px]" />
             <p className="text-xl font-semibold text-center">
               Customize Your Pet
             </p>
@@ -77,7 +77,7 @@ function How() {
 
           <div className="rounded-lg bg-[#b945e362] flex items-center flex-col gap-2 p-8 justify-center" data-aos="fade-right">
             <p className="w-full text-xl font-bold">Step 4</p>
-            <img src={e1} alt="" className="w-[100px]" />
+            <img  loading="lazy" src={e1} alt="" className="w-[100px]" />
             <p className="text-xl font-semibold text-center">Track Steps</p>
             <p className="text-center">
               Take your pet for walks and track your steps. Walking your pet
@@ -90,7 +90,7 @@ function How() {
             <>
               <div className="rounded-lg bg-[#b945e362] flex items-center flex-col gap-2 p-8 justify-center" data-aos="fade-left">
                 <p className="w-full text-xl font-bold">Step 5</p>
-                <img src={e5} alt="" className="w-[100px]" />
+                <img loading="lazy" src={e5} alt="" className="w-[100px]" />
                 <p className="text-xl font-semibold text-center">Daily Care Tasks</p>
                 <p className="text-center">
                   Keep your pet happy by feeding, bathing, and playing with it.
@@ -100,7 +100,7 @@ function How() {
 
               <div className="rounded-lg bg-[#b945e362] flex items-center flex-col gap-2 p-8 justify-center" data-aos="fade-right">
                 <p className="w-full text-xl font-bold">Step 6</p>
-                <img src={e5} alt="" className="w-[100px]" />
+                <img loading="lazy" src={e5} alt="" className="w-[100px]" />
                 <p className="text-xl font-semibold text-center">Engage In Activities</p>
                 <p className="text-center">
                   Pets have three emotions: sad, okay, and happy. Only happy pets
@@ -110,7 +110,7 @@ function How() {
 
               <div className="rounded-lg bg-[#b945e362] flex items-center flex-col gap-2 p-8 justify-center" data-aos="fade-left">
                 <p className="w-full text-xl font-bold">Step 7</p>
-                <img src={e5} alt="" className="w-[100px]" />
+                <img loading="lazy" src={e5} alt="" className="w-[100px]" />
                 <p className="text-xl font-semibold text-center">Emotion-Based Earnings</p>
                 <p className="text-center">
                   Select your pet and choose between a male or female Shiba Inu.
@@ -120,7 +120,7 @@ function How() {
 
               <div className="rounded-lg bg-[#b945e362] flex items-center flex-col gap-2 p-8 justify-center" data-aos="fade-right">
                 <p className="w-full text-xl font-bold">Step 8</p>
-                <img src={e5} alt="" className="w-[100px]" />
+                <img loading="lazy" src={e5} alt="" className="w-[100px]" />
                 <p className="text-xl font-semibold text-center">Pet Emotions</p>
                 <p className="text-center">
                   Monitor your pet’s emotions: sad, okay, and happy. Only happy pets
@@ -130,7 +130,7 @@ function How() {
 
               <div className="rounded-lg bg-[#b945e362] flex items-center flex-col gap-2 p-8 justify-center" data-aos="fade-left">
                 <p className="w-full text-xl font-bold">Step 9</p>
-                <img src={e5} alt="" className="w-[100px]" />
+                <img  loading="lazy" src={e5} alt="" className="w-[100px]" />
                 <p className="text-xl font-semibold text-center">Sleeping Rewards</p>
                 <p className="text-center">
                   Ensure your pet is happy and dressed in pajamas to earn coins
@@ -140,7 +140,7 @@ function How() {
 
               <div className="rounded-lg bg-[#b945e362] flex items-center flex-col gap-2 p-8 justify-center" data-aos="fade-right">
                 <p className="w-full text-xl font-bold">Step 10</p>
-                <img src={e5} alt="" className="w-[100px]" />
+                <img loading="lazy" src={e5} alt="" className="w-[100px]" />
                 <p className="text-xl font-semibold text-center">Receive Notifications</p>
                 <p className="text-center">
                   Get push notifications to stay updated on your pet’s needs. Attend

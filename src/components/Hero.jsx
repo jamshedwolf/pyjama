@@ -62,7 +62,7 @@ const Home = () => {
               <div className="flex justify-center items-center gap-4">
                 {imgLinks.map((t, id) => (
                   <a key={id} href={t.Path}>
-                    <img className="w-[30px]" src={t.title} alt="" />
+                    <img className="w-[30px]" loading="lazy" src={t.title} alt="" />
                   </a>
                 ))}
               </div>

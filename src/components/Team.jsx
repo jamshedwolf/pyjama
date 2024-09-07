@@ -24,7 +24,7 @@ function Team() {
                 <p className="text-6xl font-semibold text-center " data-aos='fade-down' >Our Team</p>
                 <div className="flex items-center lg:flex-row flex-col  gap-4 md:px-40 justify-center">
                     <div className="flex flex-col gap-2 " data-aos='fade-right' >
-                        <img src={m1} alt="" className="" />
+                        <img loading='lazy' src={m1} alt="" className="" />
 
                        <div className="flex justify-between items-center">
                             <div className="flex flex-col">
@@ -46,7 +46,7 @@ function Team() {
 
                     </div>
                     <div className="flex flex-col gap-2" data-aos='fade-down' >
-                        <img src={m2} alt="" className="" />
+                        <img loading='lazy' src={m2} alt="" className="" />
                        
                        <div className="flex justify-between items-center">
                             <div className="flex flex-col">
@@ -68,7 +68,7 @@ function Team() {
 
                     </div>
                     <div className="flex flex-col gap-2" data-aos='fade-left' >
-                        <img src={m3} alt="" className="" />
+                        <img src={m3} loading='lazy' alt="" className="" />
                       
                         <div className="flex justify-between items-center">
                             <div className="flex flex-col">
@@ -93,8 +93,8 @@ function Team() {
 
                 </div>
                 <div className=" grid grid-cols-1 gap-4 lg:grid-cols-3  md:px-40 justify-center">
-                    <div className="flex flex-col gap-2" data-aos='fade-right' >
-                        <img src={m4} alt="" className="" />
+                    <div  className="flex flex-col gap-2" data-aos='fade-right' >
+                        <img loading='lazy' src={m4} alt="" className="" />
                        
                         
                         <div className="flex justify-between items-center">
@@ -117,7 +117,7 @@ function Team() {
 
                     </div>
                     <div className="flex flex-col gap-2"data-aos='fade-up' >
-                        <img src={m6} alt="" className="h-[430px]" />
+                        <img  loading='lazy'src={m6} alt="" className="h-[430px]" />
                        
                         <div className="flex justify-between items-center">
                             <div className="flex flex-col">

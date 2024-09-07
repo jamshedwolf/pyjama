@@ -17,14 +17,14 @@ function Howtoplay() {
                         <p className="">Real rewards, no fluff. At PyjamaCoin, we skip the hype  <br/>and deliver what matters: genuine rewards and a fun experience.<br/> No empty promises — just a team committed to keeping you happy!</p>
                     </div>
                     <div className="flex gap-2">
-                       <button className=""> <img src={apple} alt="" className="" /></button>
-                       <button className="">   <img src={play} alt="" className="" /></button>
+                       <button className=""> <img src={apple} loading='lazy' alt="" className="" /></button>
+                       <button className="">   <img src={play}  loading='lazy' alt="" className="" /></button>
                       
                     </div>
 
                 </div>
                 <div data-aos="zoom-in-up"  className="flex-[.5]  ">
-                   <img src={mob} alt="" className="lg:min-w-[700px] w-[300px]" />
+                   <img src={mob} loading='lazy' alt="" className="lg:min-w-[700px] w-[300px]" />
 
                 </div>
 

@@ -33,7 +33,7 @@ function PlayCards() {
 
                         <div className="rounded-lg bg-[#b945e362] flex items-center flex-col gap-6 p-4 justify-center" data-aos="fade-left">
                             <p className="w-full  font-bold">Step 1</p>
-                            <img src={e1} alt="" className="w-[100px]" />
+                            <img loading="lazy" src={e1} alt="" className="w-[100px]" />
                             <p className="text-xl font-semibold text-center">Track Steps</p>
                             <p className="text-center">
                                 Take your pet for walks, track your steps, and earn rewards for keeping active.
@@ -41,7 +41,7 @@ function PlayCards() {
                         </div>
                         <div className="rounded-lg bg-[#b945e362] flex items-center flex-col gap-4 p-4 justify-center" data-aos="fade-left">
                             <p className="w-full  font-bold">Step 2</p>
-                            <img src={e2} alt="" className="w-[100px]" />
+                            <img  loading="lazy" src={e2} alt="" className="w-[100px]" />
                             <p className="text-xl font-semibold text-center">Pet Emotions</p>
                             <p className="text-center">
                                 Monitor your pet’s mood—sad, okay, happy. A happy pet earns the most Pyjama Coins during sleep.
@@ -49,7 +49,7 @@ function PlayCards() {
                         </div>
                         <div className="rounded-lg bg-[#b945e362] flex items-center flex-col gap-5 p-4 justify-center" data-aos="fade-left">
                             <p className="w-full mb-2  font-bold">Step 3</p>
-                            <img src={sleep} alt="" className="w-[100px]" />
+                            <img loading="lazy" src={sleep} alt="" className="w-[100px]" />
                             <p className="text-xl font-semibold text-center">Sleeping Rewards</p>
                             <p className="text-center">
                                 Dress your pet in pajamas and ensure it's happy to maximize your coin earnings overnight.
@@ -57,7 +57,7 @@ function PlayCards() {
                         </div>
                         <div className="rounded-lg bg-[#b945e362] flex items-center flex-col gap-4 p-4 justify-center" data-aos="fade-left">
                             <p className="w-full  font-bold">Step 4</p>
-                            <img src={e4} alt="" className="w-[100px]" />
+                            <img  loading="lazy" src={e4} alt="" className="w-[100px]" />
                             <p className="text-xl font-semibold text-center">Engage in Activities</p>
                             <p className="text-center">
                                 Maintain your pet's happiness through various activities, boosting their well-being and your earnings.
@@ -65,7 +65,7 @@ function PlayCards() {
                         </div>
                         <div className="rounded-lg bg-[#b945e362] flex items-center flex-col gap-4 p-4 justify-center" data-aos="fade-left">
                             <p className="w-full  font-bold">Step 5</p>
-                            <img src={e5} alt="" className="w-[100px]" />
+                            <img loading="lazy" src={e5} alt="" className="w-[100px]" />
                             <p className="text-xl font-semibold text-center">Emotion Based Earnings</p>
                             <p className="text-center">
                                 Understand that your earnings depend on your pet's emotions; keep them happy to earn the most!
@@ -81,29 +81,29 @@ function PlayCards() {
 
                             <div data-aos="zoom-in" className="bg-[#b945e362] p-4 rounded-lg flex items-center justify-center">
 
-                                <img src={cat2} alt="" className="" />
+                                <img  loading="lazy" src={cat2} alt="" className="" />
                             </div>
 
                             <div data-aos="zoom-in" className="bg-[#b945e362] relative   p-4 rounded-lg flex items-center justify-center">
                                 <div className="absolute  w-full h-full flex items-center justify-center text-2xl backdrop-blur-[5px]  rounded-lg font-semibold">Comming Soon</div>
-                                <img src={cat4} alt="" className="" />
+                                <img loading="lazy" src={cat4} alt="" className="" />
                             </div>
 
                             <div data-aos="zoom-in" className="bg-[#b945e362] relative p-4 rounded-lg flex items-center justify-center">
                                 <div className="absolute  w-full h-full flex items-center justify-center text-2xl backdrop-blur-[5px]  rounded-lg font-semibold">Comming Soon</div>
-                                <img src={cat6} alt="" className="" />
+                                <img  loading="lazy" src={cat6} alt="" className="" />
                             </div>
                             <div data-aos="zoom-in" className="bg-[#b945e362] relative p-4 rounded-lg flex items-center justify-center">
                                 <div className="absolute  w-full h-full flex items-center justify-center text-2xl backdrop-blur-[5px]  rounded-lg font-semibold">Comming Soon</div>
-                                <img src={cat7} alt="" className="" />
+                                <img loading="lazy" src={cat7} alt="" className="" />
                                 <div className=" absolute z-50 top-0 left-0 bottom-0 w-full h-full   "></div>
                             </div>
 
                         </div>
                         <div className="flex-[.5]  flex justify-center ">
-                            <img data-aos="zoom-in" src={mobile} alt="" className="lg:h-[600px]  h-[300px]" />
-                            <video src={cartoon}></video>
-                            <img data-aos="zoom-in" src={mobile} alt="" className="mt-20 lg:h-[600px] h-[300px]" />
+                            <img data-aos="zoom-in" loading="lazy" src={mobile} alt="" className="lg:h-[600px]  h-[300px]" />
+                            <video loading="lazy" src={cartoon}></video>
+                            <img loading="lazy" data-aos="zoom-in" src={mobile} alt="" className="mt-20 lg:h-[600px] h-[300px]" />
 
 
                         </div>
